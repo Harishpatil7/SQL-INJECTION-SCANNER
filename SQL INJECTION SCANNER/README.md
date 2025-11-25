@@ -2,7 +2,7 @@
 
 A comprehensive machine learning-based system for detecting SQL injection attacks. This project includes a robust ML model trained on complex SQL injection payloads, a FastAPI backend, and a database for logging and analytics.
 
-## 🚀 Quick Start Guide
+## Quick Start Guide
 
 Follow these steps to get the project running from scratch.
 
@@ -75,7 +75,7 @@ python ml/train_model.py
 
 ---
 
-## 📚 Project Structure
+## Project Structure
 
 ```
 sql/
@@ -97,22 +97,23 @@ sql/
 └── requirements.txt       # Python dependencies
 ```
 
-## 🔧 API Documentation
+##  API Documentation
 
 Once the server is running, you can explore the API docs at:
 - **Swagger UI**: `http://localhost:8000/docs`
 - **ReDoc**: `http://localhost:8000/redoc`
 
-## 🧪 Running Tests
+##  Running Tests
 
 To verify everything is working correctly:
 ```bash
 python test_api.py
 ```
 
-## 📝 Features
+##  Features
 
 - **Advanced ML Model**: Detects complex SQL injection payloads (Classic, Union-based, Blind, etc.)
 - **Real-time Detection**: Fast prediction with confidence scores.
 - **User Management**: Secure signup and login.
 - **History & Analytics**: Track scanned URLs and detection statistics.
+
